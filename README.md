@@ -82,7 +82,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 </pre>
 
-3- in app.components.html and ts add this line thoe code :
+3- in app.components.ts add this line thoe code :
 
 <pre>
 import { Component } from '@angular/core';
@@ -111,19 +111,6 @@ export class AppComponent {
 }
 </pre>
 
-<pre>
-  <button (click)="changeLanguage('fr')">fr</button>
-  <button (click)="changeLanguage('en')">en</button>
-  <br><br>
-  <h1>{{ 'demo.title1' | translate }}</h1>
-  <br><br>
-  <h2>{{ 'demo.titre2' | translate }}</h2>
-  <br><br>
-  <img src="{{ 'demo.img' | translate }}" width="20%">
-  <br><br>
-  <p>{{ 'demo.body' | translate }}</p>
-</pre>
-
-4- Create new folder (i18n) in assets, and in this folder create to file json (fr.json, en.json), and put your data
-
-5- Abort the server with CTR-C and start the server with 'ng serve'
+4- Create new folder (i18n) in assets, and in this folder create to file json (fr.json, en.json), and create your data
+5- Create yout app.components.html, and get DATA.
+6- Abort the server with CTR-C and start the server with 'ng serve'
