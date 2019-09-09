@@ -1,4 +1,4 @@
-# Download Project
+# I _ Download Project
 
 <pre>
 git clone https://github.com/mezganisaid/implement-ngx-translate-with-angular.git
@@ -7,7 +7,7 @@ npm install
 ng serve --open
 </pre>
 
-# Create Project 
+# II _ Create Project 
 
 ## Install ANGULAR CLI in your PC
 
