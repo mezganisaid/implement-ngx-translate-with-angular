@@ -5,7 +5,7 @@ git clone https://github.com/mezganisaid/implement-ngx-translate-with-angular.gi
 cd appTranslate
 npm install
 ng serve --open
-<pre>
+</pre>
 
 # Create Project 
 
