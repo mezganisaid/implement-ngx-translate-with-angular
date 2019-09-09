@@ -111,6 +111,8 @@ export class AppComponent {
 }
 </pre>
 
-4- Create new folder (i18n) in assets, and in this folder create to file json (fr.json, en.json), and create your data
+4- Create new folder (i18n) in assets, and in this folder create to file json (fr.json, en.json), and create your data.
+
 5- Create yout app.components.html, and get DATA.
+
 6- Abort the server with CTR-C and start the server with 'ng serve'
