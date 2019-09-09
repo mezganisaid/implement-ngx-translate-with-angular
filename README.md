@@ -124,18 +124,6 @@ export class AppComponent {
   <p>{{ 'demo.body' | translate }}</p>
 </pre>
 
-4- Create new folder (i18n) in assets, and in this folder create to file json (fr.json, en.json)
-
-Exemple : 
-<pre>
-{
-    "demo": {
-        "title1": "",
-        "titre2": "",
-        "img": "",
-        "body": ""
-    }
-}
-</pre>
+4- Create new folder (i18n) in assets, and in this folder create to file json (fr.json, en.json), and put your data
 
 5- Abort the server with CTR-C and start the server with 'ng serve'
